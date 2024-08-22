@@ -1,0 +1,102 @@
+.product-block {
+    padding: 172px 0 55px;
+    &__inner {
+        display: flex;
+        gap: 60px;
+    }
+    &__swiper {
+        max-width: 620px;
+        height: 616px;
+        margin: 0;
+        &-item {
+            padding: 0 70px;
+        }
+        &-img {
+            position: relative;
+            width: 100%;
+            height: 542px;
+            user-select: none;
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &-discount {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            width: 78px;
+            height: 78px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #E53030;
+            color: #FFF;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 1.2;
+            user-select: none;
+        }
+    }
+    &__info {
+        &-title {
+            font-size: 50px;
+            font-weight: 300;
+            line-height: 1.2;
+            margin-bottom: 38px;
+        } 
+        &-price {
+            display: flex;
+            gap: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: 38px;
+        }
+        &-desc {
+            color: #414141;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 38px;
+            text-transform: lowercase;
+            &::first-letter {
+                text-transform: uppercase;
+            }
+        }
+    }
+    &__old-price {
+        color: #969696;
+        text-decoration: line-through;
+    }
+    &__discount-price {
+        color: #E53030;
+    }
+    &__basket {
+        margin-bottom: 38px;
+        &-btn {
+            text-transform: uppercase;
+            padding: 15px 73px;
+            background: #190404;
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.2;
+            cursor: pointer;
+        }
+    }
+    &__additional {
+        &-item {
+            color: #414141;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 20px;
+            & span {
+                font-weight: 700;
+            }
+        }
+    }
+}

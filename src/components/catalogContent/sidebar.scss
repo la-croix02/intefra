@@ -1,0 +1,38 @@
+.sidebar {
+    width: 25%;
+    padding: 38px;
+    box-shadow: 0px 4px 65px 0px rgba(0, 0, 0, 0.05);
+    &__title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 27px;
+    }
+    &__categories-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    &__categories-item {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #414141;
+        line-height: 1.4;
+        &:hover .sidebar__categories-count {
+            border-color: #333333;
+        }
+    }
+    
+    &__categories-count {
+        border: 1px solid #D9D9D9;
+        border-radius: 62px;
+        padding: 4px 21px;
+        transition: .4s;
+    }
+}
+
+.active {
+    border-color: #FF4242;
+}
