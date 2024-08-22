@@ -1,0 +1,1 @@
+import{_ as e}from"./ProductContentId-8bc0f6d1.js";import{o as a,c as o,d as r}from"./index-2045fdab.js";const n={__name:"FemaleProductId",setup(t){return(c,_)=>(a(),o("div",null,[r(e)]))}};export{n as default};
