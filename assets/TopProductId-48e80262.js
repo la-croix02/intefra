@@ -1,0 +1,1 @@
+import{_ as e}from"./ProductContentId-7eb47a77.js";import{o,c as r,d as t}from"./index-14880427.js";const m={__name:"TopProductId",setup(a){return(c,_)=>(o(),r("div",null,[t(e)]))}};export{m as default};
